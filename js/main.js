@@ -27,3 +27,17 @@ $(document).ready(function() {
     })
 
 });
+
+//*BONUS
+$(".next").mouseenter(function() {
+  $(".next").css({"color":"red", "font-size":"50px"});
+});
+$(".next").mouseleave(function() {
+  $(".next").css({"color": "black", "font-size":"40px"});
+});
+$(".prev").mouseenter(function() {
+  $(".prev").css({"color": "red", "font-size":"50px"});
+});
+$(".prev").mouseleave(function() {
+  $(".prev").css({"color": "black", "font-size":"40px"});
+});
